@@ -9,6 +9,7 @@ int sum(int x);
 int main()
 {
     int program;
+    int y;
     cout << "##########################################" << endl;
     cout << "#                                        #" << endl;
     cout << "#   To run the Function program enter 1  #" << endl;
@@ -53,7 +54,11 @@ int main()
         cout << "#                                        #" << endl;
         cout << "##########################################" << endl;
         cout << endl;
-        int result = sum(10);
+        
+        cout << "Enter a number. \nIt will be used in the recursion: ";
+        cin >> y;
+
+        int result = sum(y);
         cout << result;
 
         cout << "\nPress any key to end the program . . ." << endl;
