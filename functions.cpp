@@ -4,7 +4,7 @@ using namespace std;
 
 void myFunction();
 int multiplied(int x);
-int sum(int x);
+int factorial(int x);
 
 int main()
 {
@@ -55,11 +55,11 @@ int main()
         cout << "##########################################" << endl;
         cout << endl;
 
-        cout << "Enter a number. \nIt will be used in the recursion: ";
+        cout << "Enter a number to calculate a factorial: ";
         cin >> z;
 
-        int result = sum(z);
-        cout << result;
+        int result = factorial(z);
+        cout << "Factorial of " << z << " is " << result;
 
         cout << "\nPress any key to end the program . . ." << endl;
         _getch();
@@ -97,14 +97,14 @@ int multiplied(int x)
     return x * 5;
 }
 
-int sum(int x)
+int factorial(int x)
 {
     if (x > 0)
     {
-        return x + sum(x - 1);
+        return x * factorial(x - 1);
     }
     else
     {
-        return 0;
+        return 1;
     }
 }
