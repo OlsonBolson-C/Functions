@@ -1,5 +1,4 @@
 #include <iostream>
-#include <conio.h>
 using namespace std;
 
 void myFunction();
@@ -38,10 +37,6 @@ int main()
             myFunction();
         }
         cout << "The program was executed " << multiplied(y) << " times.";
-
-        cout << "\nPress any key to end the program . . ." << endl;
-        _getch();
-        cout << endl;
     }
     break;
 
@@ -60,10 +55,6 @@ int main()
 
         int result = factorial(z);
         cout << "Factorial of " << z << " is " << result;
-
-        cout << "\nPress any key to end the program . . ." << endl;
-        _getch();
-        cout << endl;
     }
     break;
 
@@ -76,10 +67,6 @@ int main()
         cout << "#            Try again later!            #" << endl;
         cout << "#                                        #" << endl;
         cout << "##########################################" << endl;
-
-        cout << "\nPress any key to end the program . . ." << endl;
-        _getch();
-        cout << endl;
     }
     break;
     }
