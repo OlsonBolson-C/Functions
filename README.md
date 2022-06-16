@@ -7,4 +7,4 @@
 - Also you can choose your language – Polish or English 
 <br>
 
-- [Opracowanie funkcji](https://github.com/OlsonBolson-C/Functions/wiki/Opracowanie-funkcji-w-Cpp)
+- [Opracowanie funkcji](https://github.com/OlsonBolson-C/Functions/wiki/Opracowanie-funkcji-w-Cpp) it won't be in English, because i made it for school 😉
