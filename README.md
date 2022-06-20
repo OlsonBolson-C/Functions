@@ -8,7 +8,6 @@
 <br>
 
 - [Opracowanie funkcji](https://github.com/OlsonBolson-py/Functions/wiki/Opracowanie-funkcji-w-Cpp) it won't be in English, because i made it for school 😉
-
-Made by OlsonBolson: <br> 
- → GitHub: [OlsonBolson](https://github.com/OlsonBolson-py) <br>
- → Discord: [OlsonBolson#7879](https://discord.com/users/444131047316389888)
+***
+Made by [OlsonBolson](https://github.com/OlsonBolson-py) <br> 
+How to reach me: [Discord](https://discord.com/users/444131047316389888)
